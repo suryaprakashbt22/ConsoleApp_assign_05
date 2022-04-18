@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 using System.Collections;
-using Empclass = ConsoleApp_employeeclass_for_arraylist;
+using Empclass = ConsoleApp_employeeclass_for_arraylist; //This is the Namespace of the previously created project viz. "Employee management system" and is used in this project.
 
 namespace ConsoleApp_assign_05
 {
@@ -49,7 +49,7 @@ namespace ConsoleApp_assign_05
             }
 
             var arrayList1 = new ArrayList();
-            Empclass.Manager m1 = new Empclass.Manager("SP", "Manager", 1000);
+            Empclass.Manager m1 = new Empclass.Manager("SP", "Manager", 1000); // Creating new Employee Object using reference to the previous project!
             Empclass.MarketingExecutive m2 = new Empclass.MarketingExecutive("B", "Marketing Executive", 1000000.0, 10);
             Empclass.Manager m3 = new Empclass.Manager("C", "Manager", 1000000.0);
 
